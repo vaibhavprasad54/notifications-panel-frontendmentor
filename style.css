@@ -6,22 +6,39 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: hsl(211, 68%, 94%);
+}
+
 .main{
     width: 100vw;
     /* height: 100vh; */
-    padding: 22px 0;
+    padding: 15px 0;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: 'Plus Jakarta Sans', sans-serif;
-    background-color: hsl(211, 68%, 94%);
+    
 }
 
 .notifications-section{   
     width: 40rem;
-    padding: 0 40px 15px 40px;
+    padding: 0 40px 2px 40px;
     border-radius: 10px;
     background-color: white;
+}
+
+.attribution{
+    width: auto;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin-top: 2px;
+    margin-bottom: 7px;
+    font-size: 0.8rem;
+}
+
+.attribution > a{
+    color: #4678c8;
+    text-decoration: none;
 }
 
 .nav{
